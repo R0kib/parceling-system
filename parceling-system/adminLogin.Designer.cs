@@ -56,9 +56,10 @@ namespace parceling_system
             this.textBoxUserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxUserName.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxUserName.ForeColor = System.Drawing.Color.DimGray;
-            this.textBoxUserName.Location = new System.Drawing.Point(294, 166);
+            this.textBoxUserName.Location = new System.Drawing.Point(392, 204);
+            this.textBoxUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxUserName.Name = "textBoxUserName";
-            this.textBoxUserName.Size = new System.Drawing.Size(230, 18);
+            this.textBoxUserName.Size = new System.Drawing.Size(307, 22);
             this.textBoxUserName.TabIndex = 1;
             this.textBoxUserName.Text = "Username";
             this.textBoxUserName.Enter += new System.EventHandler(this.textBoxUserName_Enter);
@@ -70,10 +71,11 @@ namespace parceling_system
             this.panel1.Controls.Add(this.textBox4);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(262, 466);
+            this.panel1.Size = new System.Drawing.Size(349, 574);
             this.panel1.TabIndex = 2;
             // 
             // textBox4
@@ -82,9 +84,10 @@ namespace parceling_system
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Bahnschrift SemiLight", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(230)))), ((int)(((byte)(233)))));
-            this.textBox4.Location = new System.Drawing.Point(-4, 281);
+            this.textBox4.Location = new System.Drawing.Point(-5, 346);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(251, 29);
+            this.textBox4.Size = new System.Drawing.Size(335, 37);
             this.textBox4.TabIndex = 3;
             this.textBox4.Text = "Parcel Management  ";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -95,10 +98,11 @@ namespace parceling_system
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Bahnschrift SemiLight", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(230)))), ((int)(((byte)(233)))));
-            this.textBox2.Location = new System.Drawing.Point(58, 226);
+            this.textBox2.Location = new System.Drawing.Point(77, 278);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(183, 57);
+            this.textBox2.Size = new System.Drawing.Size(244, 70);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "Welcome to our lollypop Troops ";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -109,9 +113,10 @@ namespace parceling_system
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 71);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 87);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(224, 66);
+            this.pictureBox1.Size = new System.Drawing.Size(299, 81);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -121,10 +126,10 @@ namespace parceling_system
             this.label3.AutoSize = true;
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(547, 1);
+            this.label3.Location = new System.Drawing.Point(729, 1);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(20, 19);
+            this.label3.Size = new System.Drawing.Size(23, 24);
             this.label3.TabIndex = 3;
             this.label3.Text = "X";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -135,17 +140,19 @@ namespace parceling_system
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DimGray;
-            this.panel2.Location = new System.Drawing.Point(294, 185);
+            this.panel2.Location = new System.Drawing.Point(392, 228);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(230, 2);
+            this.panel2.Size = new System.Drawing.Size(307, 2);
             this.panel2.TabIndex = 6;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.DimGray;
-            this.panel3.Location = new System.Drawing.Point(294, 239);
+            this.panel3.Location = new System.Drawing.Point(392, 294);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(230, 2);
+            this.panel3.Size = new System.Drawing.Size(307, 2);
             this.panel3.TabIndex = 9;
             // 
             // textBoxPass
@@ -154,9 +161,10 @@ namespace parceling_system
             this.textBoxPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxPass.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPass.ForeColor = System.Drawing.Color.DimGray;
-            this.textBoxPass.Location = new System.Drawing.Point(294, 220);
+            this.textBoxPass.Location = new System.Drawing.Point(392, 271);
+            this.textBoxPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxPass.Name = "textBoxPass";
-            this.textBoxPass.Size = new System.Drawing.Size(230, 18);
+            this.textBoxPass.Size = new System.Drawing.Size(307, 22);
             this.textBoxPass.TabIndex = 7;
             this.textBoxPass.Text = "Password";
             this.textBoxPass.Enter += new System.EventHandler(this.textBoxPass_Enter);
@@ -169,9 +177,10 @@ namespace parceling_system
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(343, 278);
+            this.button1.Location = new System.Drawing.Point(457, 342);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 40);
+            this.button1.Size = new System.Drawing.Size(160, 49);
             this.button1.TabIndex = 10;
             this.button1.Text = "SignIn";
             this.button1.UseVisualStyleBackColor = false;
@@ -182,9 +191,10 @@ namespace parceling_system
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.Teal;
-            this.linkLabel1.Location = new System.Drawing.Point(333, 335);
+            this.linkLabel1.Location = new System.Drawing.Point(444, 412);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(143, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(184, 22);
             this.linkLabel1.TabIndex = 11;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "SignUp your account";
@@ -196,9 +206,10 @@ namespace parceling_system
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox1.Location = new System.Drawing.Point(317, 121);
+            this.textBox1.Location = new System.Drawing.Point(423, 149);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(202, 15);
+            this.textBox1.Size = new System.Drawing.Size(269, 19);
             this.textBox1.TabIndex = 12;
             this.textBox1.Text = "SignIn Your account as a User";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -208,9 +219,10 @@ namespace parceling_system
             this.button2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(294, 388);
+            this.button2.Location = new System.Drawing.Point(392, 478);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 32);
+            this.button2.Size = new System.Drawing.Size(112, 39);
             this.button2.TabIndex = 13;
             this.button2.Text = "User";
             this.button2.UseVisualStyleBackColor = false;
@@ -221,9 +233,10 @@ namespace parceling_system
             this.button3.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(421, 388);
+            this.button3.Location = new System.Drawing.Point(561, 478);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 32);
+            this.button3.Size = new System.Drawing.Size(133, 39);
             this.button3.TabIndex = 14;
             this.button3.Text = "Delivary Man";
             this.button3.UseVisualStyleBackColor = false;
@@ -232,20 +245,21 @@ namespace parceling_system
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(360, 24);
+            this.pictureBox2.Location = new System.Drawing.Point(77, 413);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(119, 90);
+            this.pictureBox2.Size = new System.Drawing.Size(159, 111);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
             // adminLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.ClientSize = new System.Drawing.Size(568, 460);
+            this.ClientSize = new System.Drawing.Size(757, 566);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
@@ -254,12 +268,12 @@ namespace parceling_system
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBoxPass);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBoxUserName);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "adminLogin";
             this.ShowIcon = false;
             this.Text = "adminLogin";
